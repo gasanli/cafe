@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Danfo&family=Inconsolata:wght@200..900&family=Kablammo&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Rubik+Wet+Paint&display=swap');
+
+* {
+    font-family: "Rubik Wet Paint", system-ui;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-around;
+    background-color: black;
+    font-family: "Rubik Wet Paint", system-ui;
+
+}
+
+nav div {
+    border-radius: 40px;
+    display: flex;
+    /* width: auto; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav div:hover a {
+    background-color: red;
+
+}
+
+nav div a {
+    color: white;
+    text-decoration: none;
+}
+
+.image-container {
+    background-image: url(./img/coffeehouse.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.title-container {
+    width: 10%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    line-height: 150px;
+
+    font-family: "Rubik Wet Paint", system-ui;
+    /* font-weight: 400;
+        font-style: normal; */
+
+}
+
+
+.title-container h1 {
+    text-align: center;
+}
+
+.tag-container {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    bottom: 10px;
+    position: absolute;
+    color: white;
+}
+
+.p1 {
+    margin-left: 35px;
+    background-color: black;
+
+}
+
+.p2 {
+    margin-right: 35px;
+}
+
+.contianer {
+    width: auto;
+    height: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-parent {
+    display: flex;
+    justify-content: center;
+}
+.content-parent:hover .content{
+    background-color: red;
+}
+
+.content {
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+
+.content-2 {
+    width: 60%;
+    margin: auto;
+    /* border: 1px solid red; */
+    line-height: 30px;
+    word-spacing: 20px;
+    margin-top: 20px;
+    font-family: "Rubik Wet Paint", system-ui;
+}
+
+.content-2 p {
+    margin-top: 20px;
+}
+
+.image-1 {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.content-3 {
+
+    width: 60%;
+    margin: auto;
+    line-height: 40px;
+    font-size: 20px;
+    font-family: "Rubik Wet Paint", system-ui;
+}
+
+.container-2 {
+    width: auto;
+    height: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-parent-2 {
+    display: flex;
+    justify-content: center;
+
+}
+.content-4{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+.content-parent-2:hover .content-4{
+    background-color: red;
+}
+.menu{
+    border: 1px solid black;
+}
+.header{
+    display: flex;
+    justify-content: center;
+ 
+}
+.header-left:hover{
+    background-color: red;
+}
+.header-right:hover {
+    background-color: green;
+}
+
+.header-right,
+.header-left{
+    margin-top: 20px;
+    width:25%;
+    height: 20px;
+    text-align: center;
+    border: 1px solid rgb(28, 25, 25);
+}
+.menu-cont{
+    margin: 25%;
+    margin-top: 30px;
+    line-height: 30px;
+
+}
